@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: #ffffff;
+    position: relative;
+}
+.navbar-brand, .nav-link {
+    color: #eb841c !important;
+}
+.header {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+}
+.header h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+.header p {
+    font-size: 1.25rem;
+    margin-top: 20px;
+}
+.login-signup {
+    margin-top: 20px;
+}
+.login-signup a {
+    color: #ffffff;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+}
+.main-content {
+    background-color: #ffffff;
+    padding: 40px 20px;
+}
+.course-item {
+    text-align: center;
+    margin: 20px 0;
+}
+.course-item img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.course-item h3 {
+    margin-top: 10px;
+}
+.footer {
+    background-color: #343a40;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+
+
+@media (max-width: 576px) {
+    .navbar-nav {
+        display: block;
+        width: 100%;
+        background-color: #343a40;
+    }
+    .navbar-nav .nav-item {
+        text-align: center;
+        border-bottom: 1px solid #ffffff;
+    }
+    .navbar-nav .nav-item:last-child {
+        border-bottom: none;
+    }
+    .header h1 {
+        font-size: 1.75rem;
+    }
+    .header p {
+        font-size: 1rem;
+    }
+    .login-signup a {
+        font-size: 0.875rem;
+        padding: 8px 16px;
+    }
+    .course-item img {
+        width: 80px;
+        height: 80px;
+    }
+}
+.NUMBER{
+    color: #000000;
+}
+.mb-3{
+    color: #000000;
+}

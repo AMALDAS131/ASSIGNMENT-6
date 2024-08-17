@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOCUS ARENA</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">FOCUS ARENA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  courses
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">IT</a></li>
+                  <li><a class="dropdown-item" href="#">BUSSINESS</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">OTHERS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">reviews</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Header Section -->
+    <style>
+      .header {
+          padding: 20px;
+      }
+      .img-fluid {
+          max-width: 100%;
+          height: auto;
+      }
+  </style>
+</head>
+<body>
+  <div class="container header">
+      <div class="row align-items-center">
+          <div class="col-lg-6 mb-4 mb-lg-0">
+              <h1>Learn with Us</h1>
+              <p>We Can Make Wonders</p>
+              <p>With Personal Plan, you get access to 11,000+ of our top-rated courses in tech, business, and more</p>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">SIGN UP</button>
+              <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@fat">LOGIN</button>
+          </div>
+          <div class="col-lg-6">
+              <img src="./IMAGE/ttt.webp" class="img-fluid" alt="..." width="300px">
+          </div>
+      </div>
+  </div>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h1 class="NUMBER" id="NUMBER">SIGN UP HERE</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                  <form>
+                      <div class="mb-3">
+                          <label for="mail-id" class="col-form-label">Mail id:</label>
+                          <input type="text" class="form-control" id="mail-id">
+                      </div>
+                      <div class="mb-3">
+                          <label for="password" class="col-form-label">Password:</label>
+                          <input type="password" class="form-control" id="password">
+                      </div>
+                  </form>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">SUBMIT</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+    <!-- Main Content Section -->
+    <div class="container main-content">
+        <h2 class="text-center">Our Courses</h2>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 course-item">
+                <img src="./IMAGE/business.png" alt="Business Studies">
+                <h3>Business Studies</h3>
+            </div>
+            <div class="col-md-4 col-sm-6 course-item">
+                <img src="./IMAGE/andro.jpg" alt="Android Development">
+                <h3>Android Development</h3>
+            </div>
+            <div class="col-md-4 col-sm-6 course-item">
+                <img src="./IMAGE/digital.jpg" alt="Digital Marketing">
+                <h3>Digital Marketing</h3>
+            </div>
+            <div class="col-md-4 col-sm-6 course-item">
+                <img src="./IMAGE/tally.webp" alt="Tally">
+                <h3>Tally</h3>
+            </div>
+            <div class="col-md-4 col-sm-6 course-item">
+                <img src="./IMAGE/ios.png" alt="iOS Development">
+                <h3>iOS Development</h3>
+            </div>
+            <div class="col-md-4 col-sm-6 course-item">
+                <img src="./IMAGE/java.jpg" alt="JavaScript">
+                <h3>JavaScript</h3>
+            </div>
+            <div class="col-md-4 col-sm-6 course-item">
+                <img src="./IMAGE/css.webp" alt="CSS">
+                <h3>CSS</h3>
+            </div>
+            <div class="col-md-4 col-sm-6 course-item">
+                <img src="./IMAGE/html.png" alt="HTML">
+                <h3>HTML</h3>
+            </div>
+        </div>
+    </div>
+
+  
+   
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 Focus Arena</p>
+    </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
+    
+   
+</body>
+</html>
